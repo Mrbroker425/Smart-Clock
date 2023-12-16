@@ -1,0 +1,37 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    box-sizing: border-box;;
+    background-image: url(leonard-cotte-c1Jp-fo53U8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: inline-flex;
+}
+.container,div{
+    margin: 65px;
+   font-weight: 800;
+}
+.cover{
+    display: inline-flex;
+}
+#hours,#Minutes,#Seconds{
+    font-size: 50px;
+}
+span{
+    background-color: rgba(255, 255, 255, 0.768);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+.lower-case{
+    display: block;
+    background-color: rgb(155, 155, 156);
+    opacity: 0.8;
+}
